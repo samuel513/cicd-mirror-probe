@@ -1,8 +1,0 @@
-name: mergify-canary-wf-canaryB2c8d4
-on: push
-jobs:
-  build:
-    name: mergify-canary-job-canaryB2c8d4
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "B-readable repo canary canaryB2c8d4"
