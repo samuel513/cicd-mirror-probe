@@ -1,4 +1,4 @@
-extends: devin-test-2026
+extends: zzz-no-such-repo-9x
 
 pull_request_rules:
   - name: local public rule
