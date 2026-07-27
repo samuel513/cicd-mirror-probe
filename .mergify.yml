@@ -1,4 +1,4 @@
-extends: devin-test-2026
+extends: lzsforever1/mergify-b-test
 
 pull_request_rules:
   - name: local public rule
