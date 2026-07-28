@@ -1,1 +1,7 @@
-pull_request_rules: not-a-list
+pull_request_rules:
+  - name: controlled autofix control
+    conditions:
+      - base=main
+    actions:
+      merge:
+        method: definitely-not-a-method
